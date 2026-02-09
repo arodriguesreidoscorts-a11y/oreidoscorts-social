@@ -1,1 +1,56 @@
-<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n    <meta name="viewport" content="width=device-width, initial-scale=1.0">\n    <title>Social Network Community Platform</title>\n    <link rel="stylesheet" href="styles.css">\n</head>\n<body>\n    <header>\n        <h1>Welcome to Our Social Network</h1>\n        <nav>\n            <ul>\n                <li><a href="#login">Login</a></li>\n                <li><a href="#profiles">User Profiles</a></li>\n                <li><a href="#posts">Posts</a></li>\n                <li><a href="#comments">Comments</a></li>\n            </ul>\n        </nav>\n    </header>\n    <main>\n        <section id="login">\n            <h2>Login</h2>\n            <form>\n                <label for="username">Username:</label>\n                <input type="text" id="username" name="username" required>\n                <br>\n                <label for="password">Password:</label>\n                <input type="password" id="password" name="password" required>\n                <br>\n                <input type="submit" value="Login">\n            </form>\n        </section>\n        <section id="profiles">\n            <h2>User Profiles</h2>\n            <!-- User profile cards will be displayed here -->\n        </section>\n        <section id="posts">\n            <h2>Posts</h2>\n            <!-- Posts will be listed here -->\n        </section>\n        <section id="comments">\n            <h2>Comments</h2>\n            <!-- Comments will be displayed here -->\n        </section>\n    </main>\n    <footer>\n        <p>&copy; 2026 Social Network Community</p>\n    </footer>\n</body>\n</html>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oreidoscorts.comunidade | A maior rede de cortes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+            color: #111827;
+        }
+        .font-mono {
+            font-family: 'JetBrains Mono', monospace;
+        }
+        /* Smooth Scrollbar */
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #22c55e;
+            border-radius: 10px;
+        }
+        .active-green {
+            color: #22c55e;
+        }
+        .bg-brand {
+            background-color: #22c55e;
+        }
+        .border-brand {
+            border-color: #22c55e;
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="antialiased">
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
